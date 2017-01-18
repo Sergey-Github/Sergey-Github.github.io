@@ -1,0 +1,34 @@
+body{ font-family:'Times New Roman'; font-size:1em; }
+ul, ol{ margin-top: 0; margin-bottom: 0; }
+.Normal{text-align:left;page-break-inside:auto;page-break-after:auto;page-break-before:avoid;line-height:normal;margin-top:0pt;margin-bottom:0pt;font-family:Times New Roman;font-size:12pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+h1{text-align:left;page-break-inside:auto;page-break-after:auto;page-break-before:avoid;line-height:normal;-sf-before-space-auto:yes;margin-top:14pt;-sf-after-space-auto:yes;margin-bottom:14pt;font-family:Times New Roman;font-size:24pt;text-transform:none;font-weight:bold;font-style:normal;font-variant:normal;}
+.Heading-1{text-align:left;page-break-inside:auto;page-break-after:auto;page-break-before:avoid;line-height:normal;-sf-before-space-auto:yes;margin-top:14pt;-sf-after-space-auto:yes;margin-bottom:14pt;font-family:Times New Roman;font-size:24pt;text-transform:none;font-weight:bold;font-style:normal;font-variant:normal;}
+h2{text-align:left;page-break-inside:auto;page-break-after:avoid;page-break-before:avoid;line-height:normal;margin-top:12pt;margin-bottom:3pt;font-family:Arial;font-size:14pt;text-transform:none;font-weight:bold;font-style:italic;font-variant:normal;}
+.Heading-2{text-align:left;page-break-inside:auto;page-break-after:avoid;page-break-before:avoid;line-height:normal;margin-top:12pt;margin-bottom:3pt;font-family:Arial;font-size:14pt;text-transform:none;font-weight:bold;font-style:italic;font-variant:normal;}
+h3{text-align:left;page-break-inside:auto;page-break-after:avoid;page-break-before:avoid;line-height:normal;margin-top:12pt;margin-bottom:3pt;font-family:Arial;font-size:13pt;text-transform:none;font-weight:bold;font-style:normal;font-variant:normal;}
+.Heading-3{text-align:left;page-break-inside:auto;page-break-after:avoid;page-break-before:avoid;line-height:normal;margin-top:12pt;margin-bottom:3pt;font-family:Arial;font-size:13pt;text-transform:none;font-weight:bold;font-style:normal;font-variant:normal;}
+h4{text-align:left;page-break-inside:auto;page-break-after:avoid;page-break-before:avoid;line-height:normal;margin-top:12pt;margin-bottom:3pt;font-family:Times New Roman;font-size:14pt;text-transform:none;font-weight:bold;font-style:normal;font-variant:normal;}
+.Heading-4{text-align:left;page-break-inside:auto;page-break-after:avoid;page-break-before:avoid;line-height:normal;margin-top:12pt;margin-bottom:3pt;font-family:Times New Roman;font-size:14pt;text-transform:none;font-weight:bold;font-style:normal;font-variant:normal;}
+.Default-Paragraph-Font{font-family:Calibri;font-size:11pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.Normal-Table{}
+.No-List{}
+.Заголовок-1-Знак{font-family:Times New Roman;font-size:24pt;text-transform:none;font-weight:bold;font-style:normal;font-variant:normal;}
+.Заголовок-2-Знак{font-family:Arial;font-size:14pt;text-transform:none;font-weight:bold;font-style:italic;font-variant:normal;}
+.Заголовок-3-Знак{font-family:Arial;font-size:13pt;text-transform:none;font-weight:bold;font-style:normal;font-variant:normal;}
+.Заголовок-4-Знак{font-family:Times New Roman;font-size:14pt;text-transform:none;font-weight:bold;font-style:normal;font-variant:normal;}
+.apple-converted-space{font-family:Calibri;font-size:11pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.Normal--Web-{text-align:left;page-break-inside:auto;page-break-after:auto;page-break-before:avoid;line-height:normal;-sf-before-space-auto:yes;margin-top:14pt;-sf-after-space-auto:yes;margin-bottom:14pt;font-family:Times New Roman;font-size:12pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.Hyperlink{color:#0000FF;font-family:Calibri;font-size:11pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;text-decoration: underline;}
+.noprint{font-family:Calibri;font-size:11pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.mw-headline{font-family:Calibri;font-size:11pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.mw-editsection-mw-editsection-expanded{font-family:Calibri;font-size:11pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.mw-editsection-bracket{font-family:Calibri;font-size:11pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.mw-editsection-divider{font-family:Calibri;font-size:11pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.Основной-текст--2--{font-family:Tahoma;font-size:11pt;background-color:#FFFFFF;text-transform:none;font-weight:normal;font-style:italic;font-variant:normal;}
+.Основной-текст--2-{font-family:Tahoma;font-size:11pt;background-color:#FFFFFF;text-transform:none;font-weight:normal;font-style:italic;font-variant:normal;text-decoration: underline;}
+.Основной-текст-Знак{font-family:Tahoma;font-size:9.5pt;background-color:#FFFFFF;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.Body-Text{text-align:left;page-break-inside:auto;page-break-after:auto;page-break-before:avoid;line-height:14.25pt;margin-top:9pt;margin-bottom:9pt;background-color:#FFFFFF;font-family:Tahoma;font-size:9.5pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.Основной-текст-Знак1{font-family:Times New Roman;font-size:12pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.Основной-текст--2-1{text-align:left;page-break-inside:auto;page-break-after:auto;page-break-before:avoid;line-height:14.25pt;margin-top:0pt;margin-bottom:9pt;background-color:#FFFFFF;font-family:Tahoma;font-size:11pt;text-transform:none;font-weight:normal;font-style:italic;font-variant:normal;}
+.ipa{font-family:Calibri;font-size:11pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.FollowedHyperlink{color:#954F72;font-family:Calibri;font-size:11pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;text-decoration: underline;}
