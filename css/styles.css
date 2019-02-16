@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: rgb(40, 114, 249);
+	text-decoration: none;
+}
+.page{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 1400px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: rgb(41, 41, 41);
+}
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+}
+header img{
+	width: 100px;
+	height: 100px;
+	margin-right: 50px;
+	border-radius: 50%;
+	opacity: .8;
+	align-items: flex-end;
+}
+.title{
+/*			background: rgb(40, 114, 249);
+	color: rgb(255, 255, 255);*/
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: monospace;
+}
+.name{
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 10px 0;
+}
+.contacts{
+	font-size: 1.1rem;
+	display: flex;
+	justify-content: center;
+}
+.con-item{
+	margin: 0 20px;
+}
+.con-item i{
+	font-size: 1.4rem;
+}
+.main{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	/*flex-direction: row;*/
+}
+.data{
+	max-width: 30%;
+}
+.data-title{
+	font-size: 2rem;
+	font-family: monospace;
+	font-weight: normal;
+	padding: 15px 0 10px 20px;
+	background: rgb(40, 114, 249);
+	color: rgb(255, 255, 255);
+}
+.data-text{
+	padding: 10px 0 10px 20px;
+	font-size: 1.2rem;
+}
+.data-text ul{
+	/*list-style: none;*/
+	line-height: 1.8rem;
+	align-self: center;
+	padding: 0 5px;
+}
+.data-text ul ul{
+	padding-left: 35px;
+	padding-bottom: 10px;
+	list-style: none;
+}
+.edu{
+	order: -1;
+}
+.pdf{
+	text-align: center;
+	margin-top: 20px;
+}
+.pdf a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pdf span{
+	color: rgb(41, 41, 41);
+	font-weight: bold;
+	padding-left: 10px;
+}
+.pdf i{
+	font-size: 2rem;
+	color: rgb(249, 59, 40);
+}
+@media (max-width: 950px) {
+	.data{
+		max-width: 33% !important;
+		text-decoration: overline;
+	}
+	body{background-color: red}
+}

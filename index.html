@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Сергей Коженков - Веб-разработчик</title>
+	<link href="css/all.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: rgb(40, 114, 249);
+	text-decoration: none;
+}
+.page{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 1400px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: rgb(41, 41, 41);
+}
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+}
+header img{
+	width: 100px;
+	height: 100px;
+	margin-right: 50px;
+	border-radius: 50%;
+	opacity: .8;
+	align-items: flex-end;
+}
+.title{
+/*			background: rgb(40, 114, 249);
+	color: rgb(255, 255, 255);*/
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: monospace;
+}
+.name{
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 10px 0;
+}
+.contacts{
+	font-size: 1.1rem;
+	display: flex;
+	justify-content: center;
+}
+.con-item{
+	margin: 0 20px;
+}
+.con-item i{
+	font-size: 1.4rem;
+}
+.main{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	/*flex-direction: row;*/
+	width: 100%;
+}
+.data{
+	max-width: 30%;
+}
+.data-title{
+	font-size: 2rem;
+	font-family: monospace;
+	font-weight: normal;
+	padding: 15px 0 10px 20px;
+	background: rgb(40, 114, 249);
+	color: rgb(255, 255, 255);
+}
+.data-text{
+	padding: 10px 0 10px 20px;
+	font-size: 1.2rem;
+}
+.data-text ul{
+	/*list-style: none;*/
+	line-height: 1.8rem;
+	align-self: center;
+	padding: 0 5px;
+}
+.data-text ul ul{
+	padding-left: 35px;
+	padding-bottom: 10px;
+	list-style: none;
+}
+.edu{
+	order: -1;
+}
+.pdf{
+	text-align: center;
+	margin-top: 20px;
+}
+.pdf a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pdf span{
+	color: rgb(41, 41, 41);
+	font-weight: bold;
+	padding-left: 10px;
+}
+.pdf i{
+	font-size: 2rem;
+	color: rgb(249, 59, 40);
+}
+@media (max-width: 1100px) {
+	.data{
+		max-width: 33%;
+	}
+}
+@media (max-width: 900px) {
+	.main{
+		/*display: block;*/
+		width: 100%;
+		flex-direction: column;
+		/*flex-wrap: wrap;*/
+		/*justify-content: flex-start;*/
+	}
+	.data{
+		max-width: 100%;
+	}
+	.data-text{
+		padding-left: 5%;
+	}
+	.edu{
+		order: 1;
+	}
+}
+@media (max-width: 570px) {
+	header{
+		padding-bottom: 0;
+	}
+	header img{
+		margin-right: 25px;
+	}
+	.contacts{
+		flex-direction: column;
+		align-items: center;
+	}
+	.con-item{
+		margin-top: 10px;
+	}
+}
+	</style>
+</head>
+<body class="page">
+	<header>
+		<img src="https://pp.userapi.com/c633219/v633219328/66a/w-q5QzTlM0s.jpg?ava=1">
+		<div class="info">
+			<h1 class="title">Веб-разработчик</h1>
+			<div class="name">Сергей Коженков</div>
+		</div>
+	</header>
+	<div class="contacts">
+		<div class="con-item">
+			<a href="https://vk.com/id164163328">
+				<i class="fab fa-vk"></i>
+			</a>
+		</div>
+		<div class="con-item">
+			<a href="mailto:kozhenkovsergey@gmail.com">
+				<i class="far fa-envelope"></i> kozhenkovsergey@gmail.com
+			</a>
+		</div>
+		<div class="con-item">
+			<a href="https://t.me/sergey_kozhenkov">
+				<i class="fab fa-telegram-plane"></i> @sergey_kozhenkov
+			</a>
+		</div>
+	</div>
+	<div class="main">
+		<div class="data">
+			<h2 class="data-title">Познания</h2>
+			<div class="data-text">
+				<ul>
+					<li>Технологии веб-разработки</li>
+					<ul>
+						<li>HTML5</li>
+						<li>CSS3: Градиенты, анимации, адаптивная вёрстка, Flexbox, Grid Layout</li>
+						<li>Sass, Skeleton, Bootstrap</li>
+						<li>JavaScript, JQuery, Electron, Webpack</li>
+						<li>GraphQL</li>
+						<li>PHP</li>
+						<li>Базы данных: MySQL, PostgreSQL, Redis</li>
+					</ul>
+				</ul>
+				<ul>
+					<li>Основы UX/UI. Photoshop</li>
+					<li>Git, Linux [Ubuntu] для веб-разработки</li>
+					<li>Python: работа с данными, графиками, парсинг сайтов</li>
+					<li>Английский: чтение документации</li>
+				</ul>
+			</div>
+		</div>
+		<div class="data edu">
+			<h2 class="data-title">Образование</h2>
+			<div class="data-text">
+				<ul>
+					<li>НУДО: сентябрь 2009 – октябрь 2013</li>
+					<ul>
+						<li>Новосибирская академия дизайна и программирования, специальность «веб-дизайн»</li>		
+					</ul>
+					<li>ВУЗ (бакалавр): сентябрь 2014 – август 2018</li>
+					<ul>
+						<li>Алтайский государственный университет, Физико-технический факультет, направление «Информационная безопасность»</li>
+					</ul>
+				</ul>
+			</div>
+		</div>
+		<div class="data">
+			<h2 class="data-title">Опыт</h2>
+			<div class="data-text">
+				<ul>
+					<li>Олимпиада IT-планета:</li>
+					<ul>
+						<li>специальность: веб-дизайн</li>
+					</ul>
+					<li>Спортивное программирование:</li>
+					<ul>
+						<li>университетские, Russian Code Cup, VK Cup</li>
+					</ul>
+					<li>Бизнес-кейсы:</li>
+					<ul>
+						<li>Changellenge Cup Technical/Siberia/Moscow</li>
+					</ul>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="pdf">
+		<a href="KozhenkovSK.pdf">
+			<i class="far fa-file-pdf"></i>
+			<span>for HR</span>
+		</a>
+	</div>
+
+
+</body>
+</html>
