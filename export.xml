@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<torg_price date="2020-04-04 15:15">
+<shop>
+    <name>Интернет-магазин</name>
+    <company>ООО "Магазин"</company>
+    <url>https://sergey-github.github.io/</url>
+    <currencies>
+        <currency id="RUR"/>
+    </currencies>
+    <categories>
+        <category id="1">Автомобили</category>
+        <category id="2">природа</category>
+    </categories>
+    <offers>
+        <offer id="1/2" available="true">
+            <url>https://sergey-github.github.io/product_1.html</url>
+            <price>123456</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>1</categoryId>
+            <picture>https://sergey-github.github.io/product_1.jpg</picture>
+            <name>первый товар с картинкой</name>
+        </offer>
+        <offer id="2/3" available="true">
+            <url>https://sergey-github.github.io/product_2.html</url>
+            <price>30203</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>2</categoryId>
+            <picture>https://sergey-github.github.io/product_2.jpg</picture>
+            <name>Второй товар из магазина</name>
+        </offer>
+    </offers>
+</shop>
+</torg_price>
