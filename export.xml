@@ -1,33 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?>
-<torg_price date="2020-04-04 15:15">
-<shop>
-    <name>РРЅС‚РµСЂРЅРµС‚-РјР°РіР°Р·РёРЅ</name>
-    <company>РћРћРћ "РњР°РіР°Р·РёРЅ"</company>
-    <url>https://sergey-github.github.io/</url>
-    <currencies>
-        <currency id="RUR"/>
-    </currencies>
-    <categories>
-        <category id="1">РђРІС‚РѕРјРѕР±РёР»Рё</category>
-        <category id="2">РїСЂРёСЂРѕРґР°</category>
-    </categories>
-    <offers>
-        <offer id="1/2" available="true">
-            <url>https://sergey-github.github.io/product_1.html</url>
-            <price>123456</price>
-            <currencyId>RUR</currencyId>
-            <categoryId>1</categoryId>
-            <picture>https://sergey-github.github.io/product_1.jpg</picture>
-            <name>РїРµСЂРІС‹Р№ С‚РѕРІР°СЂ СЃ РєР°СЂС‚РёРЅРєРѕР№</name>
-        </offer>
-        <offer id="2/3" available="true">
-            <url>https://sergey-github.github.io/product_2.html</url>
-            <price>30203</price>
-            <currencyId>RUR</currencyId>
-            <categoryId>2</categoryId>
-            <picture>https://sergey-github.github.io/product_2.jpg</picture>
-            <name>Р’С‚РѕСЂРѕР№ С‚РѕРІР°СЂ РёР· РјР°РіР°Р·РёРЅР°</name>
-        </offer>
-    </offers>
-</shop>
+<?xml version="1.0" encoding="windows-1251"?>
+<torg_price date="2020-04-03 12:13">
+    <shop>
+        <name>Mr. Diamond</name>
+        <company>Mr. Diamond</company>
+        <url>http://almaz.local</url>
+        <currencies>
+            <currency id="RUB" rate="1"/>
+        </currencies>
+        <categories>
+            <category id="42">Броши</category>
+        </categories>
+        <offers>
+
+            <offer id="031215/3" available="true">
+                <url>
+                    http://almaz.local/catalog/brooches/starinnaya-zolotaya-brosh-s-almazami2058
+                </url>
+                <price>90000</price>
+                <currencyId>RUB</currencyId>
+                <categoryId>42</categoryId>
+                <picture>
+                    http://almaz.local/upload/iblock/4b3/4b36c4b0f252d10fab987eae55263183.jpg
+                </picture>
+                <name>Старинная золотая брошь с алмазами</name>
+                <description>
+                    <![CDATA[
+Представляем вашему вниманию старинную золотую брошь XIX века с алмазами 0.36ct.<br> Желтое золото.<br> Размер: 47*12*10 мм.<br> <br>
+]]>
+                </description>
+            </offer>
+
+            <offer id="171215/1" available="true">
+                <url>
+                    http://almaz.local/catalog/brooches/starinnaya-zolotaya-brosh-s-almazom-0-50ct2125
+                </url>
+                <price>67500</price>
+                <currencyId>RUB</currencyId>
+                <categoryId>42</categoryId>
+                <picture>
+                    http://almaz.local/upload/iblock/db7/db74573b535946152b935306dd3c8613.jpg
+                </picture>
+                <name>Старинная золотая брошь с алмазом 0.50ct</name>
+                <description>
+                    <![CDATA[
+Представляем вашему вниманию старинную золотую брошь с алмазом 0.50ct.<br> Желтое золото.<br> Размер: 44*9.6 мм.<br> <br>
+]]>
+                </description>
+            </offer>
+
+        </offers>
+    </shop>
 </torg_price>
